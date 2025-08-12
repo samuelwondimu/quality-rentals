@@ -8,11 +8,11 @@ export default function HomePage() {
       {/* Header */}
 
       <header className="bg-black border-b border-gray-600 px-4 py-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-4 md:items-center justify-between">
           <div className="flex items-center gap-2">
             <Truck className="h-8 w-8 text-white" />
             <span className="text-xl font-bold text-white">
-              Quality Car & Construction Machinery Rentals
+              Quality Car & Machinery Rentals
             </span>
           </div>
 
@@ -20,7 +20,7 @@ export default function HomePage() {
             <Phone className="h-4 w-4 text-white" />
             <div>
               <div className="text-gray-400">Need help?</div>
-              <div className="font-semibold text-white">(555) 267-5555</div>
+              <div className="font-semibold text-white">+(251) 910863529</div>
             </div>
           </div>
         </div>
